@@ -9,9 +9,9 @@ const HeadlineCard = () => {
           <div className='rounded-xl relative'>
             {/* Overlay */}
              <div className='absolute w-full h-full bg-black/60 rounded-xl text-white'>
-                <p className='font-bold text-2xl px-2 pt-4'>Sun's Out BOGO's Out </p>
+                <p className='font-bold text-xl sm:text-2xl md:text-3xl px-2 pt-4'>Sun's Out BOGO's Out </p>
                 <p className='px-2'>Through 8/25</p>
-                <button className='border-white bg-white  text-black mx-2  absolute bottom-6'>Order Now</button>
+                <button className='border-white bg-white  text-black mx-2  absolute bottom-4 md:bottom-8'>Order Now</button>
              </div>
              <img className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl' src={food1} alt="" />
           </div>
@@ -19,9 +19,9 @@ const HeadlineCard = () => {
           <div className='rounded-xl relative'>
             {/* Overlay */}
              <div className='absolute w-full h-full bg-black/60 rounded-xl text-white'>
-                <p className='font-bold text-2xl px-2 pt-4'> We Deliver Desserts Too </p>
+                <p className='font-bold text-xl sm:text-2xl  md:text-3xl px-2 pt-4'> Our Beakery </p>
                 <p className='px-2'>Tasty Treats</p>
-                <button className='border-white bg-white  text-black mx-2  absolute bottom-6'>Order Now</button>
+                <button className='border-white bg-white  text-black mx-2  absolute bottom-4 md:bottom-8'>Order Now</button>
              </div>
              <img className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl' src={food2} alt="" />
           </div>
@@ -29,9 +29,9 @@ const HeadlineCard = () => {
           <div className='rounded-xl relative'>
             {/* Overlay */}
              <div className='absolute w-full h-full bg-black/60 rounded-xl text-white'>
-                <p className='font-bold text-2xl px-2 pt-4'>Meat Resturant</p>
+                <p className='font-bold text-xl sm:text-2xl md:text-3xl px-2 pt-4'>Meat Resturant</p>
                 <p className='px-2'>Recently Added</p>
-                <button className='border-white bg-white  text-black mx-2  absolute bottom-6'>Order Now</button>
+                <button className='border-white bg-white  text-black mx-2  absolute bottom-4 md:bottom-8'>Order Now</button>
              </div>
              <img className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl' src={Meat} alt="" />
           </div>
