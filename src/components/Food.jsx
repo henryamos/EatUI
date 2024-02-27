@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, Suspense, lazy } from 'react';
 import { data } from '../data/data';
+import Skeleton from 'react-loading-skeleton';
 
 const Food = () => {
     const [foods, setFoods] = useState(data);
@@ -17,10 +18,11 @@ const Food = () => {
     const filterPrice = (price) => {
         setFoods(
             data.filter((foodPrice) => {
-                return foodPrice.price == price;
+                return foodPrice.price === price;
             })
         );
     };
+
     return (
         <div className='max-w-[1640px] mx-auto px-4 p-10'>
             <h1 className='text-orange-600 font-bold text-4xl text-center'>
@@ -91,11 +93,11 @@ const Food = () => {
                 {foods.map((foodItem) => (
                     // Food Card
                     <div className='border shadow-lg rounded-lg hover:scale-95 duration-300 ' key={foodItem.id}>
-                        <img
-                            className='w-full h-[200px] object-cover rounded-t-lg'
-                            src={foodItem.image}
-                            alt={foodItem.name}
-                        />
+                            <img
+                                className='w-full h-[200px] object-cover rounded-t-lg'
+                                src={foodItem.image || <Skeleton width={200} height={200} count={5}/>}
+                                alt={foodItem.name}
+                            />
                         <div className='flex justify-between px-2 py-4'>
                             <p className='font-bold'>{foodItem.name}</p>
                             <p>
@@ -105,6 +107,7 @@ const Food = () => {
                     </div>
                 ))}
             </div>
+           
         </div>
     );
 };
