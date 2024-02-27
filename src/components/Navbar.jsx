@@ -7,7 +7,7 @@ import {MdFavorite, MdHelp} from 'react-icons/md'
 export const Navbar = () => {
     const [nav,setNav]=useState(false)
   return (
-   <div className='max-w-[1640px] mx-auto flex justify-between items-center p-4'>
+   <div className='max-w-[1640px] mx-auto flex justify-between items-center p-2 flex-wrap gap-4'>
     {/* left Side */}
     <div className='flex items-center'>
 
@@ -28,7 +28,7 @@ export const Navbar = () => {
     {/* Left Container End here */}
 
     {/* Search Input */}
-        <div  className='bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]'>
+        <div  className='bg-gray-300 rounded-full flex items-center px-2 w-[300px] sm:w-[400px]  lg:w-[500px]'>
             <AiOutlineSearch size={25}/>
             <input className='bg-transparent p-2 focus:outline-none' type="search" placeholder='Search Food' />
         </div>

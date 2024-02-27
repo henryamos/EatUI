@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
    
-    <div className='bg-gray-100 w-full  h-screen'>
+    <div className='bg-white w-full  h-screen'>
      <Navbar/>
      <Hero/>
      <HeadlineCard/>
