@@ -7,7 +7,12 @@ export default {
   ],
   theme: {
     extend: {
-     
+      colors: {
+       
+        primary: "#E60000",
+       
+        
+      },
     },
   },
   plugins: [
