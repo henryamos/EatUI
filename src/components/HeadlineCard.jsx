@@ -9,8 +9,8 @@ const HeadlineCard = () => {
           <div className='rounded-xl relative'>
             {/* Overlay */}
              <div className='absolute w-full h-full bg-black/60 rounded-xl text-white'>
-                <p className='font-bold text-xl sm:text-2xl md:text-3xl px-2 pt-4'>Sun's Out BOGO's Out </p>
-                <p className='px-2'>Through 8/25</p>
+                <p className='font-bold text-xl sm:text-2xl md:text-3xl px-2 pt-4'>Spicy Fries </p>
+                <p className='px-2'>Spicy Taste</p>
                 <button className='border-white bg-white  text-black mx-2  absolute bottom-4 md:bottom-8'>Order Now</button>
              </div>
              <img className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl' src={food1} alt="" />
