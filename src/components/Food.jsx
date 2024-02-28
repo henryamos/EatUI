@@ -41,7 +41,7 @@ const Food = () => {
             {/* Search Input */}
             <h1 className='text-primary font-bold text-xl mb-8 sm:text-3xl md:text-4xl text-center'>Top Rated Menu Items</h1>
             
-            <div className='bg-white border border-primary rounded-full flex  mx-auto items-center px-2 max-w-[300px]  sm:w-[400px]  lg:w-[500px]'>
+            <div className='bg-white border border-primary rounded-full flex  mx-auto items-center px-2 max-w-[600px] '>
               <AiOutlineSearch  className='text-primary' size={25} />
                 <input
                     className='bg-transparent p-2  rounded-md focus:outline-none focus:border-primary'

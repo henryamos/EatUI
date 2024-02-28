@@ -13,7 +13,7 @@ const HeadlineCard = () => {
                 <p className='px-2'>Spicy Taste</p>
                 <button className='border-white bg-white  text-black mx-2  absolute bottom-4 md:bottom-8'>Order Now</button>
              </div>
-             <img className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl' src={food1} alt="" />
+             <img className='max-h-[180px] md:max-h-[200px] w-full object-cover rounded-xl' src={food1} alt="" />
           </div>
           {/* Card-2 */}
           <div className='rounded-xl relative'>
@@ -23,7 +23,7 @@ const HeadlineCard = () => {
                 <p className='px-2'>Tasty Treats</p>
                 <button className='border-white bg-white  text-black mx-2  absolute bottom-4 md:bottom-8'>Order Now</button>
              </div>
-             <img className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl' src={food2} alt="" />
+             <img className='max-h-[180px] md:max-h-[200px] w-full object-cover rounded-xl' src={food2} alt="" />
           </div>
           {/* Card-3 */}
           <div className='rounded-xl relative'>
@@ -33,7 +33,7 @@ const HeadlineCard = () => {
                 <p className='px-2'>Recently Added</p>
                 <button className='border-white bg-white  text-black mx-2  absolute bottom-4 md:bottom-8'>Order Now</button>
              </div>
-             <img className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl' src={Meat} alt="" />
+             <img className='max-h-[180px] md:max-h-[200px] w-full object-cover rounded-xl' src={Meat} alt="" />
           </div>
     </div>
   )
